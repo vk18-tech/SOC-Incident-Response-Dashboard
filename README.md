@@ -30,12 +30,6 @@ This project demonstrates a Splunk-based SOC Incident Response Dashboard designe
 
 ---
 
-## Dashboard Preview
-
-(Add your dashboard screenshots here after uploading them.)
-
----
-
 ## MITRE ATT&CK Techniques
 
 - T1110 – Brute Force
