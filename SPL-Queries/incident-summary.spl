@@ -1,0 +1,23 @@
+Investigation Summary
+
+ Attack Type:
+SSH Brute Force
+
+Attacker IP:
+198.51.100.23
+
+Compromised Accounts:
+- backup
+- sysupdate
+
+Remote Server:
+192.0.2.99
+
+ Evidence:
+- 48 Failed SSH Login Attempts
+- 2 Successful SSH Logins
+- 3 Malicious curl Executions
+- Archive Created (/tmp/.cache_bkp.tar.gz)
+
+ Conclusion:
+The attacker successfully brute-forced SSH credentials, compromised the backup and sysupdate accounts, executed a malicious remote script, and created an archive for possible data exfiltration.

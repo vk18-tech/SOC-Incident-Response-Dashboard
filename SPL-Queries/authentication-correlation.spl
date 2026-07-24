@@ -1,0 +1,3 @@
+index=main ("Failed password" OR "Accepted password")
+| eval Status=if(searchmatch("Accepted password"),"SUCCESS","FAILED")
+| chart count over _time by Status

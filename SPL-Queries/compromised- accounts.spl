@@ -1,0 +1,3 @@
+index=main "Accepted password"
+| rex "Accepted password for (?<user>\w+)"
+| stats count by user

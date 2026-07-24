@@ -1,0 +1,4 @@
+index=main "Failed password"
+| rex "from (?<Attacker_IP>\d+\.\d+\.\d+\.\d+)"
+| stats count by Attacker_IP
+| sort -count

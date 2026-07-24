@@ -1,0 +1,5 @@
+| makeresults
+| eval "Technique ID"="T1110","Technique Name"="Brute Force"
+| append [| makeresults | eval "Technique ID"="T1059","Technique Name"="Command and Scripting Interpreter"]
+| append [| makeresults | eval "Technique ID"="T1560","Technique Name"="Archive Collected Data"]
+| table "Technique ID","Technique Name"
