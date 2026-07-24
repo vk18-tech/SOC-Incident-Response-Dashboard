@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Dashboard Overview](Screenshots/dashboard-overview.png)
+
 This project demonstrates a Splunk-based SOC Incident Response Dashboard designed to detect and investigate SSH brute-force attacks and suspicious command execution.
 
 ---
@@ -30,11 +32,22 @@ This project demonstrates a Splunk-based SOC Incident Response Dashboard designe
 
 ---
 
+## Authentication Correlation
+
+![Authentication Correlation](Screenshots/authentication-correlation.png)
+
+
+
+
 ## MITRE ATT&CK Techniques
+
+
+![MITRE ATT&CK](Screenshots/mitre-mapping.png)
 
 - T1110 – Brute Force
 - T1059 – Command and Scripting Interpreter
 - T1560 – Archive Collected Data
+  
 
 ---
 
