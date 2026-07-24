@@ -51,6 +51,21 @@ This project demonstrates a Splunk-based SOC Incident Response Dashboard designe
 
 ---
 
+### Incident Summary
+
+Provides a high-level overview of the incident, including severity, attacker IP, compromised account, and recommended actions.
+
+![Incident Summary](Screenshots/incident-summary.png)
+
+---
+
+### Top Attacker IP
+
+Highlights the source IP addresses responsible for the highest number of suspicious authentication attempts.
+
+![Top Attacker IP](Screenshots/attacker-ip.png)
+
+
 ## Skills Demonstrated
 
 - Log Analysis
